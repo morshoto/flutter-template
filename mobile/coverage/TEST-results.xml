@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite errors="3" failures="0" tests="3" skipped="0" name=".Users.shotomorisaki.Engineering.Dishcovery.mobile.test.view_model.widget" timestamp="2025-01-14T19:06:55">
+    <properties>
+      <property name="platform" value="vm"/>
+    </properties>
+    <testcase classname=".Users.shotomorisaki.Engineering.Dishcovery.mobile.test.view_model.widget" name="QuestionFlowScreen Widget Tests QuestionFlowScreen displays correctly" time="0.261">
+      <error message="1 error, see stacktrace for details">Error:
+
+Test failed. See exception logs above.
+The test description was: QuestionFlowScreen displays correctly</error>
+      <system-out>══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+Tried to use Provider with a subtype of Listenable/Stream (LocationProvider).
+
+This is likely a mistake, as Provider will not automatically update dependents
+when LocationProvider is updated. Instead, consider changing Provider for more specific
+implementation that handles the update mechanism, such as:
+
+- ListenableProvider
+- ChangeNotifierProvider
+- ValueListenableProvider
+- StreamProvider
+
+Alternatively, if you are making your own provider, consider using InheritedProvider.
+
+If you think that this is not an error, you can disable this check by setting
+Provider.debugCheckInvalidValueType to `null` in your main file:
+
+```
+void main() {
+  Provider.debugCheckInvalidValueType = null;
+
+  runApp(MyApp());
+}
+```
+
+
+When the exception was thrown, this was the stack:
+#0      Provider.debugCheckInvalidValueType.&lt;anonymous closure>.&lt;anonymous closure> (package:provider/src/provider.dart:387:9)
+#1      Provider.debugCheckInvalidValueType.&lt;anonymous closure> (package:provider/src/provider.dart:414:6)
+#2      new Provider.value.&lt;anonymous closure> (package:provider/src/provider.dart:244:48)
+#3      new Provider.value (package:provider/src/provider.dart:246:10)
+#4      main.&lt;anonymous closure>.&lt;anonymous closure> (file:///Users/shotomorisaki/Engineering/Dishcovery/mobile/test/view_model/widget_test.dart:33:17)
+#5      testWidgets.&lt;anonymous closure>.&lt;anonymous closure> (package:flutter_test/src/widget_tester.dart:189:29)
+&lt;asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1027:5)
+&lt;asynchronous suspension>
+&lt;asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  QuestionFlowScreen displays correctly
+════════════════════════════════════════════════════════════════════════════════════════════════════</system-out>
+    </testcase>
+    <testcase classname=".Users.shotomorisaki.Engineering.Dishcovery.mobile.test.view_model.widget" name="QuestionFlowScreen Widget Tests Tapping buttons updates state" time="0.023">
+      <error message="1 error, see stacktrace for details">Error:
+
+Test failed. See exception logs above.
+The test description was: Tapping buttons updates state</error>
+      <system-out>══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+Tried to use Provider with a subtype of Listenable/Stream (LocationProvider).
+
+This is likely a mistake, as Provider will not automatically update dependents
+when LocationProvider is updated. Instead, consider changing Provider for more specific
+implementation that handles the update mechanism, such as:
+
+- ListenableProvider
+- ChangeNotifierProvider
+- ValueListenableProvider
+- StreamProvider
+
+Alternatively, if you are making your own provider, consider using InheritedProvider.
+
+If you think that this is not an error, you can disable this check by setting
+Provider.debugCheckInvalidValueType to `null` in your main file:
+
+```
+void main() {
+  Provider.debugCheckInvalidValueType = null;
+
+  runApp(MyApp());
+}
+```
+
+
+When the exception was thrown, this was the stack:
+#0      Provider.debugCheckInvalidValueType.&lt;anonymous closure>.&lt;anonymous closure> (package:provider/src/provider.dart:387:9)
+#1      Provider.debugCheckInvalidValueType.&lt;anonymous closure> (package:provider/src/provider.dart:414:6)
+#2      new Provider.value.&lt;anonymous closure> (package:provider/src/provider.dart:244:48)
+#3      new Provider.value (package:provider/src/provider.dart:246:10)
+#4      main.&lt;anonymous closure>.&lt;anonymous closure> (file:///Users/shotomorisaki/Engineering/Dishcovery/mobile/test/view_model/widget_test.dart:64:17)
+#5      testWidgets.&lt;anonymous closure>.&lt;anonymous closure> (package:flutter_test/src/widget_tester.dart:189:29)
+&lt;asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1027:5)
+&lt;asynchronous suspension>
+&lt;asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Tapping buttons updates state
+════════════════════════════════════════════════════════════════════════════════════════════════════</system-out>
+    </testcase>
+    <testcase classname=".Users.shotomorisaki.Engineering.Dishcovery.mobile.test.view_model.widget" name="HomeScreen Widget Tests HomeScreen displays correctly" time="0.012">
+      <error message="1 error, see stacktrace for details">Error:
+
+Test failed. See exception logs above.
+The test description was: HomeScreen displays correctly</error>
+      <system-out>══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+Tried to use Provider with a subtype of Listenable/Stream (LocationProvider).
+
+This is likely a mistake, as Provider will not automatically update dependents
+when LocationProvider is updated. Instead, consider changing Provider for more specific
+implementation that handles the update mechanism, such as:
+
+- ListenableProvider
+- ChangeNotifierProvider
+- ValueListenableProvider
+- StreamProvider
+
+Alternatively, if you are making your own provider, consider using InheritedProvider.
+
+If you think that this is not an error, you can disable this check by setting
+Provider.debugCheckInvalidValueType to `null` in your main file:
+
+```
+void main() {
+  Provider.debugCheckInvalidValueType = null;
+
+  runApp(MyApp());
+}
+```
+
+
+When the exception was thrown, this was the stack:
+#0      Provider.debugCheckInvalidValueType.&lt;anonymous closure>.&lt;anonymous closure> (package:provider/src/provider.dart:387:9)
+#1      Provider.debugCheckInvalidValueType.&lt;anonymous closure> (package:provider/src/provider.dart:414:6)
+#2      new Provider.value.&lt;anonymous closure> (package:provider/src/provider.dart:244:48)
+#3      new Provider.value (package:provider/src/provider.dart:246:10)
+#4      main.&lt;anonymous closure>.&lt;anonymous closure> (file:///Users/shotomorisaki/Engineering/Dishcovery/mobile/test/view_model/widget_test.dart:94:17)
+#5      testWidgets.&lt;anonymous closure>.&lt;anonymous closure> (package:flutter_test/src/widget_tester.dart:189:29)
+&lt;asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1027:5)
+&lt;asynchronous suspension>
+&lt;asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  HomeScreen displays correctly
+════════════════════════════════════════════════════════════════════════════════════════════════════</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite errors="1" failures="0" tests="1" skipped="0" name=".Users.shotomorisaki.Engineering.Dishcovery.mobile.test.view_model.homescreen" timestamp="2025-01-14T19:06:55">
+    <properties>
+      <property name="platform" value="vm"/>
+    </properties>
+    <testcase classname=".Users.shotomorisaki.Engineering.Dishcovery.mobile.test.view_model.homescreen" name="HomeScreen Widget Tests HomeScreen displays correctly with data" time="0.266">
+      <error message="1 error, see stacktrace for details">Error:
+
+Test failed. See exception logs above.
+The test description was: HomeScreen displays correctly with data</error>
+      <system-out>══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+Tried to use Provider with a subtype of Listenable/Stream (LocationProvider).
+
+This is likely a mistake, as Provider will not automatically update dependents
+when LocationProvider is updated. Instead, consider changing Provider for more specific
+implementation that handles the update mechanism, such as:
+
+- ListenableProvider
+- ChangeNotifierProvider
+- ValueListenableProvider
+- StreamProvider
+
+Alternatively, if you are making your own provider, consider using InheritedProvider.
+
+If you think that this is not an error, you can disable this check by setting
+Provider.debugCheckInvalidValueType to `null` in your main file:
+
+```
+void main() {
+  Provider.debugCheckInvalidValueType = null;
+
+  runApp(MyApp());
+}
+```
+
+
+When the exception was thrown, this was the stack:
+#0      Provider.debugCheckInvalidValueType.&lt;anonymous closure>.&lt;anonymous closure> (package:provider/src/provider.dart:387:9)
+#1      Provider.debugCheckInvalidValueType.&lt;anonymous closure> (package:provider/src/provider.dart:414:6)
+#2      new Provider.value.&lt;anonymous closure> (package:provider/src/provider.dart:244:48)
+#3      new Provider.value (package:provider/src/provider.dart:246:10)
+#4      main.&lt;anonymous closure>.&lt;anonymous closure> (file:///Users/shotomorisaki/Engineering/Dishcovery/mobile/test/view_model/homescreen_test.dart:41:17)
+#5      testWidgets.&lt;anonymous closure>.&lt;anonymous closure> (package:flutter_test/src/widget_tester.dart:189:29)
+&lt;asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1027:5)
+&lt;asynchronous suspension>
+&lt;asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  HomeScreen displays correctly with data
+════════════════════════════════════════════════════════════════════════════════════════════════════</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
